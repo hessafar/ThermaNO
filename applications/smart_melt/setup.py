@@ -516,6 +516,7 @@ def run_case():
     # transient_source = "/home/hessafar/codes/cuda_laser/Results_datadriven/meltpool_125_tri.h5"
     
     file_power = "/home/hessafar/codes/cuda_laser/modulations_125samples_6params.npz"
+    # file_power = "profile_samples/modulations_125samples_6params.npz"
     transient_source = "/home/hessafar/codes/cuda_laser/Results_datadriven/meltpool_125_6params.h5"
     
     train_scenarios = np.arange(1,1024) #[1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 14, 18, 20]
