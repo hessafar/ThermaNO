@@ -45,7 +45,6 @@ class Temperature_distribution(nn.Module):
         rescale_bias = from_numpy_to_torch(rescale_bias, False)
         
 
-
         # self.activation = nn.Tanh()
         # self.activation = nn.ReLU()
         self.activation = Sin()
